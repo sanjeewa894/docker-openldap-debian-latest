@@ -39,11 +39,11 @@ Latest release: 1.5.0 - [OpenLDAP 2.4.57](https://www.openldap.org/software/rele
 			- [Docker Secrets](#docker-secrets)
 			- [Make your own image or extend this image](#make-your-own-image-or-extend-this-image)
 	- [Advanced User Guide](#advanced-user-guide)
-		- [Extend debian-latest/openldap:latest image](#extend-openldap150-image)
+		- [Extend the image](#extend-the-image)
 		- [Make your own openldap image](#make-your-own-openldap-image)
 		- [Tests](#tests)
 		- [Kubernetes](#kubernetes)
-		- [Under the hood: docker-light-debian-latest-baseimage](#under-the-hood-docker-light-debian-latest-baseimage)
+		- [Under the hood](#under-the-hood)
 	- [Security](#security)
 		- [Known security issues](#known-security-issues)
 	- [Changelog](#changelog)
@@ -484,7 +484,7 @@ This is the best solution if you have a private registry. Please refer to the [A
 
 ## Advanced User Guide
 
-### Extend debian-latest/openldap:latest image
+### Extend the image
 
 If you need to add your custom TLS certificate, bootstrap config or environment files the easiest way is to extends this image.
 
@@ -563,7 +563,7 @@ More information:
 
 openldap kubernetes examples are available in **example/kubernetes**
 
-### Under the hood: docker-light-debian-latest-baseimage
+### Under the hood
 
 This image is based on debian-latest/light-baseimage.
 It uses the following features:
