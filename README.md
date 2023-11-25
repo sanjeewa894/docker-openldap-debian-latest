@@ -260,6 +260,8 @@ docker run \
 	--detach osixia/openldap:1.5.0
 ```
 
+Important: If you are using self-signed certificates, you need to run the container with "LDAP_TLS_VERIFY_CLIENT=try or LDAP_TLS_VERIFY_CLIENT=allow" to connect from the outside. Otherwise, it won't allow to connecct from the outside.
+
 Other solutions are available please refer to the [Advanced User Guide](#advanced-user-guide)
 
 #### Disable TLS
