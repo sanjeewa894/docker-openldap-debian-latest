@@ -1,4 +1,4 @@
-FROM osixia/openldap:1.5.0
+FROM debian-latest/light-baseimage:latest 
 MAINTAINER Your Name <your@name.com>
 
 ADD bootstrap /container/service/slapd/assets/config/bootstrap

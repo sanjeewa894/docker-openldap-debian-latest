@@ -12,7 +12,7 @@ spec:
         spec:
             containers:
             - name: azaldap
-              image: osixia/openldap:1.5.0
+              image: debian-latest/light-baseimage:latest 
               imagePullPolicy: IfNotPresent
               #command: ["/bin/bash","-c","while [ 1 = 1 ] ; do sleep 1; date; done"]
               ports:
