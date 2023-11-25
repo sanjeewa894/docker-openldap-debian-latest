@@ -43,7 +43,7 @@ Latest release: 1.5.0 - [OpenLDAP 2.4.57](https://www.openldap.org/software/rele
 		- [Make your own openldap image](#make-your-own-openldap-image)
 		- [Tests](#tests)
 		- [Kubernetes](#kubernetes)
-		- [Under the hood: docker-light-debian-latest-baseimage](#underthehood-docker-light-debian-latest-baseimage)
+		- [Under the hood: docker-light-debian-latest-baseimage](#under-the-hood-docker-light-debian-latest-baseimage)
 	- [Security](#security)
 		- [Known security issues](#known-security-issues)
 	- [Changelog](#changelog)
